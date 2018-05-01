@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SCMS.Controller.Branch" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACIQAAAAAAAAAIAABAAAQAIAAAAAAAAAIAICACABA=</HashCode>
+      <FileName>Controller\Branch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.Controller.BranchController" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAACAAAAIAAAA=</HashCode>
+      <FileName>Controller\BranchController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.Course" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgICMABAAQAAAAAAAABAAQQAgCAAAAABAEAAAIAgAAA=</HashCode>
+      <FileName>Controller\Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.CourseController">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Controller\CourseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.Logging" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAgABAAAIAAAAAAAAAAAAQIAAAAAA=</HashCode>
+      <FileName>Controller\Logging.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.LoggingController">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\LoggingController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.User" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCMAAAAAAIAACAEQBAAAQABAAAAAACAAIBIAAEABA=</HashCode>
+      <FileName>Controller\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.UserController">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Controller\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.syscourseHandler" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\syscourseHandler.ashx.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SCMS.View.classes" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>View\classes.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.View.index" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>View\index.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.View.login">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAoAQAAAAAAAIAAAIAAAA=</HashCode>
+      <FileName>View\login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.View.SysBranches">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>View\SysBranches.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.View.sysbranchHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAABAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\sysbranchHandler.ashx.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SCMS.View.SysCourses">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>View\SysCourses.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.View.SysManagerHome">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>View\SysManagerHome.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCMS.View.temp1sys">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAgAAAAAAAAAACAAABAAACAAAAQAIAAAIAAAA=</HashCode>
+      <FileName>View\temp1sys.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

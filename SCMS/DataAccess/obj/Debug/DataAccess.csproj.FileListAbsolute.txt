@@ -1,0 +1,12 @@
+C:\Users\hp\Desktop\projectforintern\SCMS\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\hp\Desktop\projectforintern\SCMS\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\hp\Desktop\projectforintern\SCMS\DataAccess\bin\Debug\MySql.Data.dll
+C:\Users\hp\Desktop\projectforintern\SCMS\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\projectforintern\SCMS\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\hp\Desktop\projectforintern\SCMS\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\hp\Desktop\projectfor384\SCMS\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\hp\Desktop\projectfor384\SCMS\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\hp\Desktop\projectfor384\SCMS\DataAccess\bin\Debug\MySql.Data.dll
+C:\Users\hp\Desktop\projectfor384\SCMS\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\projectfor384\SCMS\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\hp\Desktop\projectfor384\SCMS\DataAccess\obj\Debug\DataAccess.pdb
