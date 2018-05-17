@@ -33,8 +33,8 @@
             <tr> 
                 <th>Course</th>
                 <th>Quota</th>
-                <th>Period(Week)</th>
-                <th>Duration of Training(Minute)</th>
+                <th>Period (Week)</th>
+                <th>Duration of Training (Minute)</th>
                 <th>Level</th>
                 <th>Price</th>
                 <th>Equipment</th>
