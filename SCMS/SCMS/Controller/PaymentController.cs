@@ -28,6 +28,27 @@ namespace SCMS.Controller
             }
             return result;
         }
+        
+
+        public static bool DeletePayment(int id)
+        {
+            bool result = false;
+            using (var connection = Database.GetConnection())
+            {
+
+                var command = new MySqlCommand("DELETE FROM payments WHERE id=@Id", connection);
+                command.Parameters.Add(new MySqlParameter("Id", id));
+                connection.Open();
+                if (command.ExecuteNonQuery() != -1)
+                {
+                    result = true;
+                }
+                connection.Close();
+
+
+            }
+            return result;
+        }
 
        
     }
