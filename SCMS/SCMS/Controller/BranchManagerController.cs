@@ -8,6 +8,54 @@ namespace SCMS.Controller
     public class BranchManagerController
     {
         
+        public static bool InsertUser(BranchManager user)
+        {
+            bool result = false;
+            using (var connection = Database.GetConnection())
+            {
+                var command = new MySqlCommand("INSERT INTO users(name, surname, username, password, role, phone,gender,birthdate) VALUES( @name, @surname, @username, @password, @role, @phone, @gender, @birthdate)", connection);
+
+                command.Parameters.Add(new MySqlParameter("name", user.Name));
+                command.Parameters.Add(new MySqlParameter("surname", user.Surname));
+                command.Parameters.Add(new MySqlParameter("username", user.Username));
+                command.Parameters.Add(new MySqlParameter("password", user.Password));
+                command.Parameters.Add(new MySqlParameter("role", "user"));
+                command.Parameters.Add(new MySqlParameter("phone", user.Phone));
+                command.Parameters.Add(new MySqlParameter("gender", user.Gender));
+                command.Parameters.Add(new MySqlParameter("birthdate", user.BirthDate));
+                connection.Open();
+                if (command.ExecuteNonQuery() != -1)
+                {
+                    result = true;
+                }
+                connection.Close();
+            }
+            return result;
+        }
+
+        public static bool InsertBranchManager(BranchManager user)
+        {
+
+            bool result = false;
+
+            using (var connection = Database.GetConnection())
+            {
+                var command = new MySqlCommand("INSERT INTO branch_managers (user_id, b_name) VALUES ((SELECT MAX(id) FROM users), @name)", connection);
+                command.Parameters.Add(new MySqlParameter("name", user.BranchName));
+
+                connection.Open();
+                if (command.ExecuteNonQuery() != -1)
+                {
+                    result = true;
+                }
+                connection.Close();
+
+            }
+
+            return result;
+
+        }
+        
          public static bool DeleteBranchManager(int id)
         {
             bool result = false;
