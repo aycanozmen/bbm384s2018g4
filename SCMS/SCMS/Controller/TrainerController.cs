@@ -63,25 +63,7 @@ namespace SCMS.Controller
 
         }
 
-        public static bool DeleteTrainer(int id)
-        {
-            bool result = false;
-            using (var connection = Database.GetConnection())
-            {
-
-                var command = new MySqlCommand("DELETE FROM users WHERE id=@Id", connection);
-                command.Parameters.Add(new MySqlParameter("Id", id));
-                connection.Open();
-                if (command.ExecuteNonQuery() != -1)
-                {
-                    result = true;
-                }
-                connection.Close();
-
-
-            }
-            return result;
-        }
+        
 
         public static bool UpdateTrainer(Trainer user)
         {
@@ -109,6 +91,26 @@ namespace SCMS.Controller
                     result = true;
                 }
                 connection.Close();
+            }
+            return result;
+        }
+        
+        public static bool DeleteTrainer(int id)
+        {
+            bool result = false;
+            using (var connection = Database.GetConnection())
+            {
+
+                var command = new MySqlCommand("DELETE FROM users WHERE id=@Id", connection);
+                command.Parameters.Add(new MySqlParameter("Id", id));
+                connection.Open();
+                if (command.ExecuteNonQuery() != -1)
+                {
+                    result = true;
+                }
+                connection.Close();
+
+
             }
             return result;
         }
