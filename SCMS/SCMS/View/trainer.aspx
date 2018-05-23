@@ -62,7 +62,6 @@
 							
 								<li><a href="trainer.aspx">Trainers</a></li>
 								<li><a href="about.aspx">About</a></li>
-								<li><a href="contact.aspx">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
