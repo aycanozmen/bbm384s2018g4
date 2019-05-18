@@ -139,7 +139,7 @@
                   <td class="style1" colspan="2">
                       &nbsp;</td>
                   <td class="style15">
-                      User Name</td>
+                      Username</td>
                   <td class="style16">
                       <asp:TextBox ID="Uname" runat="server" MaxLength="15"></asp:TextBox>
                       <br />
@@ -219,7 +219,7 @@
                   <td class="style15">
                       Birthdate</td>
                   <td class="style16">
-                      <asp:TextBox ID="BirthDate" runat="server" MaxLength="15"></asp:TextBox>
+                      <asp:TextBox ID="BirthDate" runat="server" MaxLength="20"></asp:TextBox>
                       <br />
                       <asp:RequiredFieldValidator ID="re_birthdate" runat="server"
                            ControlToValidate="BirthDate" Display="Dynamic"
@@ -227,7 +227,7 @@
                            ValidationGroup="signUp"></asp:RequiredFieldValidator>
                       <asp:RegularExpressionValidator ID="re_validdate" runat="server"
                            ControlToValidate="BirthDate" Display="Dynamic"
-                           ErrorMessage="Enter the Valid Date (mm/dd/yyyy or mm-dd-yyyy)" ForeColor="Red"
+                           ErrorMessage="Enter the Valid Date (mm-dd-yyyy or mm/dd/yyyy)" ForeColor="Red"
                            ValidationExpression="^([0-9]{1,2})[/-]+([0-9]{1,2})[/-]+([0-9]{2}|[0-9]{4})$"
                            ValidationGroup="signUp"></asp:RegularExpressionValidator>
                   </td>

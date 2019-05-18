@@ -73,9 +73,8 @@
 									</ul>
 								</li>
 								
-								<li><a href="#">Trainers</a></li>
-								<li><a href="#">About</a></li>
-								<li><a href="#">Contact</a></li>
+								<li><a href="trainer.aspx">Trainers</a></li>
+								<li><a href="about.aspx">About</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -175,12 +174,12 @@
 				</div>
 				<div class="row text-center">
 					<div class="col-md-4 col-sm-6">
-						<div class="team-section-grid animate-box" style="background-image: url(images/trainer-1.jpg);">
+						<div class="team-section-grid animate-box" style="background-image: url(images/bodybuilding.jpg);">
 							<div class="overlay-section">
 								<div class="desc">
-									<h3>Mustafa Danyıldız</h3>
+									<h3>Edward Bishop</h3>
 									<span>Body Trainer</span>
-									<p>Far far away, behind the word mountains...</p>
+									<p>Get stronger...</p>
 									<p class="fh5co-social-icons">
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
@@ -191,12 +190,12 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6">
-						<div class="team-section-grid animate-box" style="background-image: url(images/trainer-2.jpg);">
+						<div class="team-section-grid animate-box" style="background-image: url(images/swimmingtrainer.jpg);">
 							<div class="overlay-section">
 								<div class="desc">
-									<h3>Ilayda Kaya</h3>
+									<h3>Lydia John</h3>
 									<span>Swimming Trainer</span>
-									<p>Far far away, behind the word mountains...</p>
+									<p>Swim like a dolphin...</p>
 									<p class="fh5co-social-icons">
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
@@ -207,12 +206,12 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6">
-						<div class="team-section-grid animate-box" style="background-image: url(images/trainer-3.jpg);">
+						<div class="team-section-grid animate-box" style="background-image: url(images/yogatrainer.jpg);">
 							<div class="overlay-section">
 								<div class="desc">
-									<h3>Sule Karaslar</h3>
+									<h3>Samantha White</h3>
 									<span>Yoga</span>
-									<p>Far far away, behind the word mountains....</p>
+									<p>Meditation and sports together... What could be better...</p>
 									<p class="fh5co-social-icons">
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
@@ -223,12 +222,12 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6">
-						<div class="team-section-grid animate-box" style="background-image: url(images/trainer-4.jpg);">
+						<div class="team-section-grid animate-box" style="background-image: url(images/cyclingtrainer.jpg);">
 							<div class="overlay-section">
 								<div class="desc">
-									<h3>Aycan Ozmen</h3>
+									<h3>Thomas Danforth</h3>
 									<span>Cycling Trainer</span>
-									<p>Far far away, behind the word mountains....</p>
+									<p>Be fastest on land...</p>
 									<p class="fh5co-social-icons">
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>
@@ -239,12 +238,12 @@
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6">
-						<div class="team-section-grid animate-box" style="background-image: url(images/trainer-5.jpg);">
+						<div class="team-section-grid animate-box" style="background-image: url(images/boxingtrainer.jpg);">
 							<div class="overlay-section">
 								<div class="desc">
-									<h3>Ugur Cıftcı</h3>
+									<h3>Katie Wilder</h3>
 									<span>Boxing Trainer</span>
-									<p>Far far away, behind the word mountains....</p>
+									<p>Knock out!...</p>
 									<p class="fh5co-social-icons">
 										<a href="#"><i class="icon-twitter-with-circle"></i></a>
 										<a href="#"><i class="icon-facebook-with-circle"></i></a>

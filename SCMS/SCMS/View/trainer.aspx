@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="classes.aspx.cs" Inherits="SCMS.View.classes" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="trainer.aspx.cs" Inherits="SCMS.View.trainer" %>
 
 
 <!DOCTYPE html>
@@ -69,90 +69,132 @@
 			</header>		
 		</div>
 		<!-- end:fh5co-header -->
-		<div class="fh5co-parallax" style="background-image: url(images/body.jpg);" data-stellar-background-ratio="1">
+		<div class="fh5co-parallax" style="background-image: url(images/personalTrainer.jpg);" data-stellar-background-ratio="1">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 						<div class="fh5co-intro fh5co-table-cell animate-box">
-							<h1 class="text-center">Classes</h1>
-							<p>You can see the classes below.<br>Sign up for anything you want<br /> </p>
+							<h1 class="text-center">Trainers</h1>
+							<p>You can see our trainers below.<br>Click on them to get more information.<br /> </p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div><!-- end: fh5co-parallax -->
 		<!-- end:fh5co-hero -->
-		<div id="fh5co-programs-section">
+		<div id="fh5co-team-section" class="fh5co-lightgray-section">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2">
 						<div class="heading-section text-center animate-box">
-							<h2>Our Programs</h2>
-							<p>Look at the class schedule and join us immediately.</p>
+							<h2>Meet Our Trainers</h2>
+							<p>-------</p>
 						</div>
 					</div>
 				</div>
 				<div class="row text-center">
 					<div class="col-md-4 col-sm-6">
-						<div class="program animate-box">
-							<img src="images/fit-dumbell.svg" alt="Cycling">
-							<h3>Body Building</h3>
-							<p>--- </p>
-							<span><a href="login.aspx" class="btn btn-default">JoIn Now</a></span>
+						<div class="team-section-grid animate-box" style="background-image: url(images/bodybuilding.jpg);">
+							<div class="overlay-section">
+								<div class="desc">
+									<h3>Edward Bishop</h3>
+									<span>Body Trainer</span>
+									<p>Get stronger...</p>
+									<p class="fh5co-social-icons">
+										<a href="#"><i class="icon-twitter-with-circle"></i></a>
+										<a href="#"><i class="icon-facebook-with-circle"></i></a>
+										<a href="#"><i class="icon-instagram-with-circle"></i></a>
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6">
-						<div class="program animate-box">
-							<img src="images/fit-yoga.svg" alt="">
-							<h3>Yoga Programs</h3>
-							<p>---  </p>
-							<span><a href="login.aspx" class="btn btn-default">JoIn Now</a></span>
+						<div class="team-section-grid animate-box" style="background-image: url(images/swimmingtrainer.jpg);">
+							<div class="overlay-section">
+								<div class="desc">
+									<h3>Lydia John</h3>
+									<span>Swimming Trainer</span>
+									<p>Swim like a dolphin...</p>
+									<p class="fh5co-social-icons">
+										<a href="#"><i class="icon-twitter-with-circle"></i></a>
+										<a href="#"><i class="icon-facebook-with-circle"></i></a>
+										<a href="#"><i class="icon-instagram-with-circle"></i></a>
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6">
-						<div class="program animate-box">
-							<img src="images/fit-cycling.svg" alt="">
-							<h3>Cycling Program</h3>
-							<p>---  </p>
-							<span><a href="login.aspx" class="btn btn-default">JoIn Now</a></span>
+						<div class="team-section-grid animate-box" style="background-image: url(images/yogatrainer.jpg);">
+							<div class="overlay-section">
+								<div class="desc">
+									<h3>Samantha White</h3>
+									<span>Yoga</span>
+									<p>Meditation and sports together... What could be better...</p>
+									<p class="fh5co-social-icons">
+										<a href="#"><i class="icon-twitter-with-circle"></i></a>
+										<a href="#"><i class="icon-facebook-with-circle"></i></a>
+										<a href="#"><i class="icon-instagram-with-circle"></i></a>
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6">
-						<div class="program animate-box">
-							<img src="images/fit-boxing.svg" alt="Cycling">
-							<h3>Boxing Fitness</h3>
-							<p>--- </p>
-							<span><a href="login.aspx" class="btn btn-default">JoIn Now</a></span>
+						<div class="team-section-grid animate-box" style="background-image: url(images/cyclingtrainer.jpg);">
+							<div class="overlay-section">
+								<div class="desc">
+									<h3>Thomas Danforth</h3>
+									<span>Cycling Trainer</span>
+									<p>Be fastest on land...</p>
+									<p class="fh5co-social-icons">
+										<a href="#"><i class="icon-twitter-with-circle"></i></a>
+										<a href="#"><i class="icon-facebook-with-circle"></i></a>
+										<a href="#"><i class="icon-instagram-with-circle"></i></a>
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-6">
-						<div class="program animate-box">
-							<img src="images/fit-swimming.svg" alt="">
-							<h3>Swimming Program</h3>
-							<p>--- </p>
-							<span><a href="login.aspx" class="btn btn-default">JoIn Now</a></span>
+						<div class="team-section-grid animate-box" style="background-image: url(images/boxingtrainer.jpg);">
+							<div class="overlay-section">
+								<div class="desc">
+									<h3>Katie Wilder</h3>
+									<span>Boxing Trainer</span>
+									<p>Knock out!...</p>
+									<p class="fh5co-social-icons">
+										<a href="#"><i class="icon-twitter-with-circle"></i></a>
+										<a href="#"><i class="icon-facebook-with-circle"></i></a>
+										<a href="#"><i class="icon-instagram-with-circle"></i></a>
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
-					
 				</div>
 			</div>
 		</div>
 		
+		
+		
+		<!-- fh5co-blog-section -->
 		<footer>
 			<div id="footer">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4 animate-box">
 							<h3 class="section-title">About Us</h3>
-							<p>-------------------------------</p>
+							<p>Far far away, behind the word mountains, far from the countries....</p>
 						</div>
 
 						<div class="col-md-4 animate-box">
 							<h3 class="section-title">Our Address</h3>
 							<ul class="contact-info">
-								<li><i class="icon-map-marker"></i>Hacettepe Beytepe Campus</li>
-								<li><i class="icon-phone"></i>123654</li>
+								<li><i class="icon-map-marker"></i>Hacettepe Beytepe</li>
+								<li><i class="icon-phone"></i>+1234 5678</li>
 								<li><i class="icon-envelope"></i><a href="#">info@saumi.com</a></li>
 								<li><i class="icon-globe2"></i><a href="#">www.saumi.com</a></li>
 							</ul>
@@ -168,7 +210,7 @@
 								<a href="#"><i class="icon-dribbble2"></i></a>
 								<a href="#"><i class="icon-youtube"></i></a>
 							</p>
-							<p>Copyright 2018 Şaumi <a href="#">Fitness</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by ŞAUMİ</p>
+							<p>Copyright 2018 <a href="#">Fıtness</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by ŞAUMİ</p>
 						</div>
 					</div>
 				</div>

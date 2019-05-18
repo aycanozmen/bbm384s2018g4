@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="classes.aspx.cs" Inherits="SCMS.View.classes" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="about.aspx.cs" Inherits="SCMS.View.about" %>
 
 
 <!DOCTYPE html>
@@ -69,75 +69,21 @@
 			</header>		
 		</div>
 		<!-- end:fh5co-header -->
-		<div class="fh5co-parallax" style="background-image: url(images/body.jpg);" data-stellar-background-ratio="1">
+		<div class="fh5co-parallax" style="background-image: url(images/fitness.jpg);" data-stellar-background-ratio="1">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 						<div class="fh5co-intro fh5co-table-cell animate-box">
-							<h1 class="text-center">Classes</h1>
-							<p>You can see the classes below.<br>Sign up for anything you want<br /> </p>
+							<h1 class="text-center">About Us</h1>
+							<p>You can see more information about us below.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div><!-- end: fh5co-parallax -->
 		<!-- end:fh5co-hero -->
-		<div id="fh5co-programs-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<div class="heading-section text-center animate-box">
-							<h2>Our Programs</h2>
-							<p>Look at the class schedule and join us immediately.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row text-center">
-					<div class="col-md-4 col-sm-6">
-						<div class="program animate-box">
-							<img src="images/fit-dumbell.svg" alt="Cycling">
-							<h3>Body Building</h3>
-							<p>--- </p>
-							<span><a href="login.aspx" class="btn btn-default">JoIn Now</a></span>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<div class="program animate-box">
-							<img src="images/fit-yoga.svg" alt="">
-							<h3>Yoga Programs</h3>
-							<p>---  </p>
-							<span><a href="login.aspx" class="btn btn-default">JoIn Now</a></span>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<div class="program animate-box">
-							<img src="images/fit-cycling.svg" alt="">
-							<h3>Cycling Program</h3>
-							<p>---  </p>
-							<span><a href="login.aspx" class="btn btn-default">JoIn Now</a></span>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<div class="program animate-box">
-							<img src="images/fit-boxing.svg" alt="Cycling">
-							<h3>Boxing Fitness</h3>
-							<p>--- </p>
-							<span><a href="login.aspx" class="btn btn-default">JoIn Now</a></span>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<div class="program animate-box">
-							<img src="images/fit-swimming.svg" alt="">
-							<h3>Swimming Program</h3>
-							<p>--- </p>
-							<span><a href="login.aspx" class="btn btn-default">JoIn Now</a></span>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
+		
 		
 		<footer>
 			<div id="footer">

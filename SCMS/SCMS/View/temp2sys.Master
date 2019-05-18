@@ -1,0 +1,150 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="temp2sys.Master.cs" Inherits="SCMS.View.temp2sys" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="content/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="content/font-awesome.min.css" />
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="content/ionicons.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="content/AdminLTE.min.css" />
+    <!-- AdminLTE Skins -->
+    <link rel="stylesheet" href="content/skin-blue.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" />
+    
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+
+    <!-- Bootstrap 3.3.7 -->
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/adminlte.min.js"></script>
+    <!-- AdminLTE App -->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body class="hold-transition skin-blue sidebar-mini" >
+    <form runat="server">
+    <div class="wrapper">
+        <!-- Main Header -->
+        <header class="main-header">
+
+            <!-- Logo -->
+            <a href="BranchManagerHome.aspx" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><b>ŞAUMİ</b></span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg">
+                    <img src="images/saumi.jpg"  height="55" width="220" /></span>
+            </a>
+
+            <!-- Header Navbar -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                </a>
+                <!-- Navbar Right Menu -->
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <!-- Messages: style can be found in dropdown.less-->
+                                    
+                        <!-- User Account Menu -->
+                        <li class="dropdown user user-menu">
+                            <!-- Menu Toggle Button -->
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                           
+                                <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                              
+                                <asp:Label ID="lblName" class="hidden-xs" runat="server" Text="Name" ></asp:Label>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <!-- The user image in the menu -->
+                                <li class="user-header">
+
+                                      <asp:Label ID="info" runat="server" Text="inf" ></asp:Label>
+                                </li>
+                            
+                                <!-- Menu Footer-->
+                                <li class="user-footer">
+                                    
+                                    <div class="pull-right">
+                                        
+                                         <asp:Button ID="logout" class="btn btn-default btn-flat" enableEventValidation="false" runat="server" OnClick="logoutBtn_Click" Text="Logout" />
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Control Sidebar Toggle Button -->
+                        <li>
+                            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <aside class="main-sidebar">
+
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+
+                <!-- Sidebar user panel (optional) -->
+                <div class="user-panel">
+                  
+                    <div class="pull-left info">
+                           <asp:Label ID="nameSur" runat="server" Text="ns" ></asp:Label>
+                        </br>
+                        <!-- Status -->
+                        <a href="#"><i class="fa fa-circle text-success"></i>Online</a>
+                    </div>
+                </div>
+
+
+                <!-- Sidebar Menu -->
+                <ul class="sidebar-menu" data-widget="tree">
+                    <li class="header">MENU</li>
+                    <!-- Optionally, you can add icons to the links -->
+                   <li ><a href="BranchManagerHome.aspx"><i class="fa fa-link"></i><span>Home</span></a></li>
+
+                    <li ><a href="#.aspx"><i class="fa fa-link"></i><span>Members</span></a></li>
+                    <li ><a href="#.aspx"><i class="fa fa-link"></i><span>Trainers</span></a></li>
+                    <li ><a href="#"><i class="fa fa-link"></i><span>Courses</span></a></li>
+                </ul>
+                <!-- /.sidebar-menu -->
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+        <div class="content-wrapper">
+       
+            <section class="content container-fluid">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    
+                </asp:ContentPlaceHolder>
+            </section>
+        </div>
+        <footer class="main-footer">
+            <!-- To the right -->
+            <div class="pull-right hidden-xs">
+                Anything you want
+   
+            </div>
+            <!-- Default to the left -->
+            <strong>Copyrıght &copy; 2018 <a href="#">ŞAUMİ</a>.</strong> All rıghts reserved.
+ 
+        </footer>
+       
+        <!-- /.control-sidebar -->
+        <!-- Add the sidebar's background. This div must be placed
+  immediately after the control sidebar -->
+        <div class="control-sidebar-bg"></div>
+    </div>
+        </form>
+</body>
+</html>
